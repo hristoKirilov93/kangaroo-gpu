@@ -1,0 +1,24 @@
+# build
+obj/
+kangaroo
+*.o
+*.obj
+*.exe
+*.pdb
+*.iobj
+*.ipdb
+*.ipch
+.vs/
+VC_CUDA102/
+
+# големи данни / изход (не в git — качвай ги отделно на кутията)
+targets.txt
+targets*.txt
+puzzle80*.txt
+*.kcp
+work*.kcp
+found*.txt
+result*.txt
+p71_state.json*
+
+__pycache__/
