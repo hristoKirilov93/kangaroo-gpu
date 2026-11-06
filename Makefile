@@ -12,6 +12,8 @@
 # Линкваме -lcuda (driver API, за cuModuleLoad на cubin-а).
 #---------------------------------------------------------------------
 
+.DEFAULT_GOAL := all
+
 OBJDIR = obj
 
 SRCCOMMON = SECPK1/IntGroup.cpp main.cpp SECPK1/Random.cpp \

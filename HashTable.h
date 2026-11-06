@@ -12,6 +12,12 @@
 #include <direct.h>
 #endif
 
+#ifndef WIN64
+#ifndef __forceinline
+#define __forceinline inline
+#endif
+#endif
+
 #define HASH_SIZE_BIT 18
 #define HASH_SIZE (1 << HASH_SIZE_BIT)
 #define HASH_MASK (HASH_SIZE - 1)
